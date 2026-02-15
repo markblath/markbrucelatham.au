@@ -103,6 +103,83 @@
 
         <p>The first attempt to push beyond five weeks failed. At five and a half weeks, the pain came back. We reset. Tried again a few months later. This time it held. Eight weeks. Then nine. Then twelve. Sixteen. And most recently, twenty weeks between injections.</p>
 
+        <div class="tapering-chart">
+          <h3>Denosumab tapering journey</h3>
+          <p class="chart-subtitle">Weeks between doses, March 2023 to December 2025</p>
+          <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+            <!-- Grid lines -->
+            <line x1="60" y1="40" x2="60" y2="250" stroke="#ddd" stroke-width="1"/>
+            <line x1="60" y1="250" x2="670" y2="250" stroke="#ddd" stroke-width="1"/>
+            <!-- Horizontal grid -->
+            <line x1="60" y1="208" x2="670" y2="208" stroke="#eee" stroke-width="1"/>
+            <line x1="60" y1="166" x2="670" y2="166" stroke="#eee" stroke-width="1"/>
+            <line x1="60" y1="124" x2="670" y2="124" stroke="#eee" stroke-width="1"/>
+            <line x1="60" y1="82" x2="670" y2="82" stroke="#eee" stroke-width="1"/>
+            <line x1="60" y1="40" x2="670" y2="40" stroke="#eee" stroke-width="1"/>
+            <!-- Y-axis labels (weeks) -->
+            <text x="50" y="254" text-anchor="end" font-size="11" fill="#888">0</text>
+            <text x="50" y="212" text-anchor="end" font-size="11" fill="#888">4</text>
+            <text x="50" y="170" text-anchor="end" font-size="11" fill="#888">8</text>
+            <text x="50" y="128" text-anchor="end" font-size="11" fill="#888">12</text>
+            <text x="50" y="86" text-anchor="end" font-size="11" fill="#888">16</text>
+            <text x="50" y="44" text-anchor="end" font-size="11" fill="#888">20</text>
+            <text x="14" y="150" text-anchor="middle" font-size="11" fill="#888" transform="rotate(-90,14,150)">Weeks between doses</text>
+            <!-- Data points: dose intervals in weeks -->
+            <!-- Phase 2: doses 1-11 all ~4 weeks, then phase 3 tapering -->
+            <!-- Plotting post-recurrence doses with X spread across chart -->
+            <!-- D2:4w D3:3.7w D4:4w D5:4w D6:4.7w D7:4.3w D8:4w D9:4w D10:4w D11:4w D12:4w D13:5.6w D14:4.1w D15:4.1w D16:4.1w D17:4.7w D18:8.3w D19:9.4w D20:12w D21:12w D22:16.1w D23:20.1w -->
+            <!-- X positions: 22 data points spread from x=70 to x=660 -->
+            <polyline fill="none" stroke="#2a7a8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              points="
+                70,208
+                97,211
+                124,208
+                151,208
+                178,204
+                205,207
+                232,208
+                259,208
+                286,208
+                313,208
+                340,208
+                367,191
+                394,207
+                421,207
+                448,207
+                475,204
+                502,163
+                529,151
+                556,124
+                583,124
+                610,82
+                660,40
+              "/>
+            <!-- Dots -->
+            <g fill="#2a7a8c">
+              <circle cx="70" cy="208" r="4"/><circle cx="97" cy="211" r="4"/><circle cx="124" cy="208" r="4"/>
+              <circle cx="151" cy="208" r="4"/><circle cx="178" cy="204" r="4"/><circle cx="205" cy="207" r="4"/>
+              <circle cx="232" cy="208" r="4"/><circle cx="259" cy="208" r="4"/><circle cx="286" cy="208" r="4"/>
+              <circle cx="313" cy="208" r="4"/><circle cx="340" cy="208" r="4"/><circle cx="367" cy="191" r="4"/>
+              <circle cx="394" cy="207" r="4"/><circle cx="421" cy="207" r="4"/><circle cx="448" cy="207" r="4"/>
+              <circle cx="475" cy="204" r="4"/><circle cx="502" cy="163" r="4"/><circle cx="529" cy="151" r="4"/>
+              <circle cx="556" cy="124" r="4"/><circle cx="583" cy="124" r="4"/><circle cx="610" cy="82" r="4"/>
+              <circle cx="660" cy="40" r="5" stroke="#fff" stroke-width="2"/>
+            </g>
+            <!-- Key date labels -->
+            <text x="70" y="272" text-anchor="start" font-size="10" fill="#888">Mar 2023</text>
+            <text x="340" y="272" text-anchor="middle" font-size="10" fill="#888">Jan 2024</text>
+            <text x="502" y="272" text-anchor="middle" font-size="10" fill="#888">Aug 2024</text>
+            <text x="660" y="272" text-anchor="end" font-size="10" fill="#888">Dec 2025</text>
+            <!-- Annotation for the 20-week milestone -->
+            <text x="660" y="32" text-anchor="end" font-size="11" fill="#2a7a8c" font-weight="600">20 weeks</text>
+            <!-- Annotation: first extension attempt -->
+            <text x="367" y="183" text-anchor="middle" font-size="9" fill="#2a7a8c">5.6w</text>
+            <text x="502" y="155" text-anchor="middle" font-size="9" fill="#2a7a8c">8w</text>
+            <text x="556" y="116" text-anchor="middle" font-size="9" fill="#2a7a8c">12w</text>
+            <text x="610" y="74" text-anchor="middle" font-size="9" fill="#2a7a8c">16w</text>
+          </svg>
+        </div>
+
         <p>It's a process of learning to read your own body, distinguishing between normal aches and the signals that something deeper is happening. Every extension is an experiment. Every pain-free week is a small victory.</p>
 
         <h2>From patient to advocate</h2>
