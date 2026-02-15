@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Mark Latham</title>
+  <meta name="description" content="Get in touch with Mark Latham for patient navigation services, research collaboration, or speaking enquiries.">
+  <meta property="og:title" content="Contact — Mark Latham">
+  <meta property="og:description" content="Book a free intro call or send a message.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav-brand">Mark Latham</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="my-story.html">My Story</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero hero-page" id="main">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p>Whether you're interested in patient navigation services, research collaboration, or just want to connect &mdash; I'd love to hear from you.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-form">
+          <h2 class="section-heading" style="font-size: 1.4rem;">Send a message</h2>
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required placeholder="you@example.com">
+
+            <label for="subject">What's this about?</label>
+            <select id="subject" name="subject">
+              <option value="Navigator services">Patient navigator services</option>
+              <option value="Research collaboration">Research or collaboration</option>
+              <option value="Speaking">Speaking enquiry</option>
+              <option value="Other">Something else</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell me a bit about your situation or what you'd like to discuss..."></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h2 class="section-heading" style="font-size: 1.4rem;">Other ways to connect</h2>
+
+          <div class="contact-info-item">
+            <div class="icon">&#128197;</div>
+            <div>
+              <h3>Book a call</h3>
+              <p>Skip the form &mdash; <a href="https://cal.com/marklatham/45-min-meeting" target="_blank" rel="noopener">book a free 45-minute intro call</a> directly.</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon">&#9993;</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:mark@markbrucelatham.au">mark@markbrucelatham.au</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon">&#127758;</div>
+            <div>
+              <h3>Location</h3>
+              <p>Based in Australia (Sydney &amp; Melbourne). Available for video consultations nationally and internationally.</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <a href="https://cal.com/marklatham/45-min-meeting" target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; text-align: center;">Book a Free Intro Call</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <span>&copy; 2026 Mark Latham. All rights reserved.</span>
+      <ul class="footer-links">
+        <li><a href="my-story.html">My Story</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
