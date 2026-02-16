@@ -673,6 +673,142 @@ img {
   margin: 0;
 }
 
+/* --- Publication Feed --- */
+.pub-search-wrap {
+  margin-bottom: 1.5rem;
+}
+
+.pub-search {
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: var(--font-stack);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+}
+
+.pub-search:focus {
+  outline: none;
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(42, 122, 140, 0.1);
+}
+
+.pub-search-status {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  margin-top: 0.5rem;
+  min-height: 1.2em;
+}
+
+.pub-updated {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  margin-bottom: 1.5rem;
+}
+
+.pub-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.pub-cat-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--teal-light);
+  color: var(--teal-dark);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pub-cat-link:hover {
+  background: var(--teal);
+  color: #fff;
+}
+
+.pub-cat-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 0.1rem 0.45rem;
+  border-radius: 10px;
+}
+
+.pub-cat-link:hover .pub-cat-count {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.pub-category-section {
+  scroll-margin-top: 80px;
+}
+
+.pub-category-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--teal);
+}
+
+.pub-category-heading .pub-cat-count {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  font-weight: 500;
+}
+
+.pub-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.pub-item:hover {
+  box-shadow: 0 4px 20px var(--shadow-md);
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pub-meta {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  line-height: 1.4;
+  margin: 0 0 0.25rem 0;
+}
+
+.pub-journal {
+  font-style: italic;
+}
+
+.pub-abstract {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  line-height: 1.5;
+  margin: 0.5rem 0 0 0;
+}
+
 /* --- Research Page --- */
 .research-areas {
   display: grid;
