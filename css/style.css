@@ -997,6 +997,189 @@ img {
   margin-bottom: 2rem;
 }
 
+/* --- FAQ Accordion --- */
+.faq-list {
+  max-width: 720px;
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-stack);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: left;
+  gap: 1rem;
+  min-height: 44px;
+}
+
+.faq-question:hover {
+  background: var(--off-white);
+}
+
+.faq-icon {
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+  color: var(--teal);
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 300px;
+}
+
+.faq-answer p {
+  padding: 0 1.25rem 1.25rem;
+  font-size: 0.93rem;
+  color: var(--charcoal-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- What to Expect --- */
+.expect-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.expect-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.expect-number {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: var(--teal);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.expect-item h4 {
+  font-size: 1rem;
+  font-weight: 650;
+  color: var(--navy);
+  margin-bottom: 0.35rem;
+}
+
+.expect-item p {
+  font-size: 0.93rem;
+  color: var(--charcoal-light);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- Credibility Section --- */
+.credibility-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.credibility-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.credibility-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background: var(--teal-light);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.credibility-item h4 {
+  font-size: 1rem;
+  font-weight: 650;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.credibility-item p {
+  font-size: 0.9rem;
+  color: var(--charcoal-light);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- Footer Social --- */
+.footer-social {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s;
+}
+
+.footer-social a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.footer-social svg {
+  width: 18px;
+  height: 18px;
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.footer-social a:hover svg {
+  fill: #fff;
+}
+
 /* ============================================
    Tablet & up (min-width: 768px)
    ============================================ */
@@ -1312,5 +1495,26 @@ img {
 
   .journey-stage p {
     font-size: 0.82rem;
+  }
+
+  /* Expect grid */
+  .expect-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Credibility grid */
+  .credibility-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* FAQ */
+  .faq-question {
+    padding: 1.1rem 1.5rem;
+  }
+
+  .faq-answer p {
+    padding: 0 1.5rem 1.5rem;
   }
 }
