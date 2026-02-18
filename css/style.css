@@ -390,6 +390,7 @@ img {
   height: 36px;
   width: auto;
   opacity: 0.75;
+  mix-blend-mode: multiply;
   transition: opacity 0.2s;
 }
 
