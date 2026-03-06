@@ -1,0 +1,357 @@
+{
+  "last_updated": "2026-03-07T10:19:39.438291",
+  "count": 15,
+  "trials": [
+    {
+      "nct_id": "NCT06331104",
+      "title": "Network Pharmacology Prediction: Mechanism Study of Puerarin in the Treatment of Giant Cell Tumors of Bone",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "sponsor": "Changye Zou",
+      "summary": "Based on network pharmacology analysis, this study aims to explore the potential therapeutic targets and molecular mechanisms of puerarin on giant cell tumor of bone (GCTB) genes.",
+      "start_date": "2012-06-14",
+      "completion_date": "2023-08-31",
+      "locations": [
+        "China"
+      ],
+      "interventions": [
+        "gene expression levels"
+      ],
+      "conditions": [
+        "Giant Cell Tumors"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06331104"
+    },
+    {
+      "nct_id": "NCT03449108",
+      "title": "LN-145 or LN-145-S1 in Treating Patients With Relapsed or Refractory Ovarian Cancer, Triple Negative Breast Cancer (TNBC), Anaplastic Thyroid Cancer, Osteosarcoma, or Other Bone and Soft Tissue Sarcomas",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "Phase 2",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "summary": "This phase II trial studies how well autologous tumor infiltrating lymphocytes LN-145 (LN-145) or LN-145-S1 works in treating patients with ovarian cancer, triple negative breast cancer (TNBC), anaplastic thyroid cancer, osteosarcoma, or other bone and soft tissue sarcomas that do not respond to treatment (refractory) or that has come back (relapsed).\n\nLN-145 is made by collecting and growing specialized white blood cells (called T-cells) that are collected from the patient's tumor. LN-145-S1 is made using a modified process that chooses a specific portion of the T-cells. The T cells may speci",
+      "start_date": "2018-04-27",
+      "completion_date": "2027-04-30",
+      "locations": [
+        "United States"
+      ],
+      "interventions": [
+        "Aldesleukin",
+        "Autologous Tumor Infiltrating Lymphocytes LN-145",
+        "Autologous Tumor Infiltrating Lymphocytes LN-145-S1",
+        "Cyclophosphamide",
+        "Fludarabine"
+      ],
+      "conditions": [
+        "Bone Sarcoma",
+        "Dedifferentiated Chondrosarcoma",
+        "Giant Cell Tumor of Bone",
+        "Malignancy in Giant Cell Tumor of Bone",
+        "Malignant Solid Neoplasm",
+        "Ovarian Carcinosarcoma",
+        "Platinum-Resistant Ovarian Carcinoma",
+        "Poorly Differentiated Thyroid Gland Carcinoma",
+        "Recurrent Osteosarcoma",
+        "Recurrent Ovarian Carcinoma",
+        "Refractory Osteosarcoma",
+        "Soft Tissue Sarcoma",
+        "Thyroid Gland Anaplastic Carcinoma",
+        "Thyroid Gland Squamous Cell Carcinoma",
+        "Undifferentiated High Grade Pleomorphic Sarcoma of Bone",
+        "Triple Negative Breast Cancer"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03449108"
+    },
+    {
+      "nct_id": "NCT00680992",
+      "title": "Study of Denosumab in Subjects With Giant Cell Tumor of Bone",
+      "status": "COMPLETED",
+      "phase": "Phase 2",
+      "sponsor": "Amgen",
+      "summary": "To determine how safe denosumab is in treating subjects with giant cell tumor of bone (GCTB)",
+      "start_date": "2008-09-09",
+      "completion_date": "2018-05-17",
+      "locations": [
+        "United States",
+        "Australia",
+        "Austria",
+        "Canada",
+        "France",
+        "Germany",
+        "Italy",
+        "Netherlands",
+        "Poland",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "interventions": [
+        "Denosumab"
+      ],
+      "conditions": [
+        "Cancer",
+        "Giant Cell Tumors",
+        "Giant Cell Tumor of Bone",
+        "Benign Giant Cell Tumors"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT00680992"
+    },
+    {
+      "nct_id": "NCT04002817",
+      "title": "Giant Cell Tumor of the Bone in Young Patients",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "sponsor": "Istituto Ortopedico Rizzoli",
+      "summary": "single institution cases series review of histological and clinical data of young patient with Giant Cell Tumors",
+      "start_date": "2019-06-05",
+      "completion_date": "2019-12-30",
+      "locations": [
+        "Italy"
+      ],
+      "interventions": [],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04002817"
+    },
+    {
+      "nct_id": "NCT05402865",
+      "title": "A Real-world Study on Patients of Unresectable Giant Cell Tumor of Bone",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "sponsor": "Shanghai JMT-Bio Inc.",
+      "summary": "This is a retrospective observational real-world study, which evaluates the efficacy and safety of denosumab and non-denosumab therapies in the treatment of Chinese populations of surgically unsalvageable or severe post-surgery morbidity associated giant cell tumor of bone (GCTB), collectively referred to as unresectable GCTB, during 2013-2021 in three medical centers, serving as the external control for a single arm phase Ib/II trial on JMT103 treatment of GCTB. 301 patients were enrolled and divided into 2 groups according to their actual previous exposures. Group 1 (n=135) was denosumab gro",
+      "start_date": "2021-11-10",
+      "completion_date": "2021-12-01",
+      "locations": [
+        "China"
+      ],
+      "interventions": [
+        "Denosumab"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05402865"
+    },
+    {
+      "nct_id": "NCT06647901",
+      "title": "Efficacy of ICG-based NIR Imaging in Intralesional Curettage of Giant Cell Tumors of Bone in Limbs: a Prospective, Single-center, Single-arm, Open Study",
+      "status": "RECRUITING",
+      "phase": "Phase 1",
+      "sponsor": "Tang Xiaodong",
+      "summary": "ICG fluorescence imaging will be applied during the intralesional curettage of giant cell tumor of bone in the limbs. This study aims to preliminarily explore whether ICG fluorescent-guided curettage could find small residual tumors and reduce the recurrence rate of tumor.",
+      "start_date": "2024-08-23",
+      "completion_date": "2026-08-31",
+      "locations": [
+        "China"
+      ],
+      "interventions": [
+        "ICG (Indocyanine Green)"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06647901"
+    },
+    {
+      "nct_id": "NCT04586660",
+      "title": "Study of XGEVA® (Denosumab) in Chinese Adults and Skeletally Mature Adolescents With Giant Cell Tumor of the Bone",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "Phase 4",
+      "sponsor": "Amgen",
+      "summary": "The study aims to evaluate the efficacy of XGEVA® in Chinese participants with giant cell tumor of bone (GCTB).",
+      "start_date": "2023-08-17",
+      "completion_date": "2028-03-07",
+      "locations": [
+        "China",
+        "Taiwan"
+      ],
+      "interventions": [
+        "XGEVA®"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04586660"
+    },
+    {
+      "nct_id": "NCT02996734",
+      "title": "Giant Cell Tumor of the Extremities Treated With Surgery and/or Medical Treatment",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "sponsor": "Istituto Ortopedico Rizzoli",
+      "summary": "The purpose of this project is to present the outcomes of patients with giant cell tumor of bone (GCTB) who were treated with surgery and/or medical treatment in a single institution.",
+      "start_date": "2016-04",
+      "completion_date": "2016-12",
+      "locations": [],
+      "interventions": [
+        "curettage and resection"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02996734"
+    },
+    {
+      "nct_id": "NCT07227961",
+      "title": "PROMIS and Mobility Evaluation in Sarcoma Patients",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "sponsor": "University of Calgary",
+      "summary": "The goal of this is to validate the Patient-Reported Outcomes Measurement Information System (PROMIS) in sarcoma patients undergoing surgery, and to evaluate a novel smartphone app for collecting mobility data. The goals of the study include to:\n\n1. Validate PROMIS as a patient outcome measure in sarcoma\n2. Assess the effectiveness of a novel app for administering questionnaires and collecting mobility metrics\n3. Compare PROMIS scores and mobility metrics to better evaluate recovery trajectories after surgery\n\nParticipants will complete PROMIS questionnaires at regularly scheduled intervals us",
+      "start_date": "2025-07-01",
+      "completion_date": "2030-06-30",
+      "locations": [
+        "United States",
+        "Canada"
+      ],
+      "interventions": [
+        "Surgery"
+      ],
+      "conditions": [
+        "Sarcoma",
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07227961"
+    },
+    {
+      "nct_id": "NCT03295981",
+      "title": "Local Bisphosphonate Effect on Recurrence Rate in Extremity Giant Cell Tumor of Bone",
+      "status": "RECRUITING",
+      "phase": "Phase 3",
+      "sponsor": "St. Louis University",
+      "summary": "The purpose of the clinical study is to investigate whether the local delivery of bisphosphonate as a surgical adjuvant can decrease the chance of a giant cell tumor of bone coming back to the same location. The hypothesis is that the local administration of bisphosphonate will decrease the rate of the tumor returning compared to traditional aggressive surgical removal of the tumor.",
+      "start_date": "2018-05-03",
+      "completion_date": "2027-01",
+      "locations": [
+        "United States",
+        "Canada",
+        "India"
+      ],
+      "interventions": [
+        "Zoledronic Acid"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03295981"
+    },
+    {
+      "nct_id": "NCT00396279",
+      "title": "Safety and Efficacy Study of Denosumab in Patients With Recurrent or Unresectable Giant Cell Tumor of Bone",
+      "status": "COMPLETED",
+      "phase": "Phase 2",
+      "sponsor": "Amgen",
+      "summary": "To determine how safe and effective denosumab is in treating patients with giant cell tumor of bone.",
+      "start_date": "2006-07-10",
+      "completion_date": "2008-04-07",
+      "locations": [],
+      "interventions": [
+        "Denosumab",
+        "Calcium/Vitamin D"
+      ],
+      "conditions": [
+        "GCT",
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT00396279"
+    },
+    {
+      "nct_id": "NCT03301857",
+      "title": "Long-term Safety Follow-up of Subjects With Giant Cell Tumor of Bone Treated With Denosumab in Study 20062004",
+      "status": "COMPLETED",
+      "phase": "Phase 4",
+      "sponsor": "Amgen",
+      "summary": "Study 20140114 will continue to follow participants with GCTB who were treated in Study 20062004 and remained on the study at the completion of Study 20062004 for an additional 5 years on long-term safety follow up.",
+      "start_date": "2017-11-13",
+      "completion_date": "2023-07-27",
+      "locations": [
+        "United States",
+        "Australia",
+        "France",
+        "Italy",
+        "Poland",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "interventions": [
+        "Denosumab"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03301857"
+    },
+    {
+      "nct_id": "NCT00464620",
+      "title": "Trial of Dasatinib in Advanced Sarcomas",
+      "status": "COMPLETED",
+      "phase": "Phase 2",
+      "sponsor": "Sarcoma Alliance for Research through Collaboration",
+      "summary": "This study will examine the response rate and the 6-month progression-free survival rates of subjects with advanced sarcoma treated with dasatinib.",
+      "start_date": "2007-05",
+      "completion_date": "2016-12",
+      "locations": [
+        "United States"
+      ],
+      "interventions": [
+        "Dasatinib"
+      ],
+      "conditions": [
+        "Rhabdomyosarcoma",
+        "Malignant Peripheral Nerve Sheath Tumors",
+        "Chondrosarcoma",
+        "Sarcoma, Ewing's",
+        "Sarcoma, Alveolar Soft Part",
+        "Chordoma",
+        "Epithelioid Sarcoma",
+        "Giant Cell Tumor of Bone",
+        "Hemangiopericytoma",
+        "Gastrointestinal Stromal Tumor (GIST)"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT00464620"
+    },
+    {
+      "nct_id": "NCT07315828",
+      "title": "Accuracy of Indocyanine Green (ICG) Fluorescence Imaging in Giant Cell Tumor of Bone Surgery",
+      "status": "RECRUITING",
+      "phase": "Phase 4",
+      "sponsor": "Shanghai Jiao Tong University Affiliated Sixth People's Hospital",
+      "summary": "This study evaluates the diagnostic accuracy of Indocyanine Green (ICG) fluorescence imaging in visualizing residual lesions of Giant Cell Tumor of Bone (GCTB) in the tumor cavity during surgery. Patients diagnosed with GCTB will receive an intravenous injection of ICG prior to the operation to label tumor tissues. During the procedure, surgeons will use a near-infrared fluorescence imaging system to visualize the tumor cavity and identify potential residual lesions after standard curettage. The study aims to determine the sensitivity, specificity, positive predictive value, and negative predi",
+      "start_date": "2026-01-02",
+      "completion_date": "2026-12",
+      "locations": [
+        "China"
+      ],
+      "interventions": [
+        "Indocyanine Green"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07315828"
+    },
+    {
+      "nct_id": "NCT05595603",
+      "title": "Zoledronic Acid-loaded Bone Cement as a Local Adjuvant Therapy for Giant Cell Bone Tumor After Intralesional Curettage",
+      "status": "RECRUITING",
+      "phase": "Phase 2",
+      "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+      "summary": "The purpose of this study is to investigate whether zoledronic acid-loaded bone cement (4mg ZOL+ gentamicin PMMA ) as adjuvant method can decrease local recurrence in patients with giant cell bone tumor following intralesional curettage surgery. The hypothesis is that patients with local administration of zoledronic acid to the bone cement has lower relapse rate compared those with traditional bone cement(gentamicin PMMA ).",
+      "start_date": "2023-03",
+      "completion_date": "2026-06-01",
+      "locations": [
+        "China"
+      ],
+      "interventions": [
+        "4mg ZOL loaded gentamicin PMMA",
+        "gentamicin PMMA"
+      ],
+      "conditions": [
+        "Giant Cell Tumor of Bone"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05595603"
+    }
+  ]
+}

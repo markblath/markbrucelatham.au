@@ -810,6 +810,279 @@ img {
   margin: 0.5rem 0 0 0;
 }
 
+/* --- Publication Filters (source type tabs + topic pills) --- */
+.pub-filters {
+  margin-bottom: 1.5rem;
+}
+
+.pub-type-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.pub-type-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  background: var(--off-white);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--font-stack);
+  color: var(--charcoal);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  white-space: nowrap;
+  min-height: 36px;
+}
+
+.pub-type-tab:hover {
+  border-color: var(--teal);
+  color: var(--teal-dark);
+}
+
+.pub-type-tab.active {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: #fff;
+  font-weight: 600;
+}
+
+.pub-tab-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  line-height: 1.4;
+}
+
+.pub-type-tab.active .pub-tab-count {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.pub-topic-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-topic-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.75rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: var(--font-stack);
+  color: var(--charcoal-light);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  min-height: 30px;
+}
+
+.pub-topic-pill:hover {
+  border-color: var(--teal);
+  color: var(--teal-dark);
+  background: var(--teal-light);
+}
+
+.pub-topic-pill.active {
+  background: var(--teal-light);
+  border-color: var(--teal);
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
+.pill-count {
+  font-size: 0.72rem;
+  color: var(--charcoal-light);
+}
+
+.pub-topic-pill.active .pill-count {
+  color: var(--teal-dark);
+}
+
+/* --- Filter bar (updated date + status) --- */
+.pub-filter-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.pub-updated {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+}
+
+/* --- Source badges on pub cards --- */
+.pub-item-top {
+  margin-bottom: 0.5rem;
+}
+
+.pub-source-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 10px;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.pub-source-pubmed {
+  background: #e8f4f6;
+  color: var(--teal-dark);
+}
+
+.pub-source-europepmc {
+  background: #e8f0ff;
+  color: #3a5ab0;
+}
+
+.pub-source-preprint {
+  background: #fff4e0;
+  color: #9a6400;
+}
+
+.pub-source-openalex {
+  background: var(--off-white);
+  color: var(--charcoal-light);
+  border: 1px solid var(--border);
+}
+
+/* --- Clinical Trials section --- */
+.trials-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--teal-light);
+}
+
+.trials-note {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  margin-bottom: 1.5rem;
+}
+
+.trials-empty {
+  font-size: 0.95rem;
+  color: var(--charcoal-light);
+  padding: 2rem;
+  text-align: center;
+  background: var(--off-white);
+  border-radius: 12px;
+  border: 1px dashed var(--border);
+}
+
+.trial-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.trial-item:hover {
+  box-shadow: 0 4px 20px var(--shadow-md);
+}
+
+.trial-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.trial-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.trial-status-recruiting {
+  background: #e6f9ed;
+  color: #1a7a40;
+}
+
+.trial-status-completed {
+  background: var(--teal-light);
+  color: var(--teal-dark);
+}
+
+.trial-status-active {
+  background: #fff4e0;
+  color: #9a6400;
+}
+
+.trial-status-enrolling {
+  background: #f0eeff;
+  color: #5a3ab0;
+}
+
+.trial-status-other {
+  background: var(--off-white);
+  color: var(--charcoal-light);
+}
+
+.trial-phase {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 10px;
+  background: var(--off-white);
+  color: var(--charcoal-light);
+  border: 1px solid var(--border);
+}
+
+.trial-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.trial-sponsor,
+.trial-meta {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  line-height: 1.4;
+  margin: 0 0 0.25rem 0;
+}
+
+.trial-summary {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  line-height: 1.5;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.trial-nct {
+  font-size: 0.8rem;
+  color: var(--charcoal-light);
+  margin-top: 0.4rem;
+}
+
 /* --- Research Page --- */
 .research-areas {
   display: grid;
